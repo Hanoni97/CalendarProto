@@ -30,5 +30,6 @@
             />
         <activity android:name=".custom.CalendarAdapter" />
         <activity android:name=".custom.CalendarViewHolder" />
+        <activity android:name=".AddCalendar" />
     </application>
 </manifest>

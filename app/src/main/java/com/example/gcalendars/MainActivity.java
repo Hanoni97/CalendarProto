@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button buttonPersonalCalendar = findViewById(R.id.buttonPersonalCalendar);
         Button buttonGroupCalendar = findViewById(R.id.buttonGroupCalendar);
+        Button buttonAddCalendar = findViewById(R.id.addButton);
 
         buttonPersonalCalendar.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, MyCalendar.class);
@@ -25,6 +26,11 @@ public class MainActivity extends AppCompatActivity {
 
         buttonGroupCalendar.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, GroupCalendar.class);
+            startActivity(intent);
+        });
+
+        buttonAddCalendar.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, AddCalendar.class);
             startActivity(intent);
         });
     }
