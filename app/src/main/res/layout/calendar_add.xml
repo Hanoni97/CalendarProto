@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".AddCalendar">
+
+    <Button
+        android:id="@+id/buttonPCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/personal_calendar"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:id="@+id/buttonGCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/group_calendar"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>
